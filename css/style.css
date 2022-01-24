@@ -76,15 +76,24 @@
         height: 745px;
     }
 
+    .study, .findings {
+        padding-top: 130px;
+    }
+
+
+
     .study-group {
         width: 60%;
     }
 
-    .study-group-description {
+    .study-group-description, .findings-description {
         width: 40%;
         padding-top: 45px;
     }
 
+    #gray-section {
+        background-color: gray;
+    }
 
 
 
