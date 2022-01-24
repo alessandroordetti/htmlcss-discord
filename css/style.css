@@ -1,0 +1,68 @@
+
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .clearfix::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    header{
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        background-color: rgb(49, 97, 224);
+    }
+    
+    .container{
+        /* allargando l'immagine arriverà a crescere fino a 1180px dopodiché si allargheranno solo i margine ma la width resterà uguale */
+        width: 90%;
+        height: 100%;
+        max-width: 1180px;
+        margin: 0 auto;
+        background-color: salmon;
+    }
+    
+    .float-left{
+     float: left;
+    }
+     
+    img{
+        vertical-align: middle;
+    }
+    
+    header .main-nav li{
+        display: inline;
+        margin: 0 15px;
+    }
+
+    .main-nav {
+        width: 60%;
+        text-align: center;
+        margin: 0 120px;
+    }
+
+    section {
+        width: 100%;
+        height: 600px;
+        background-color: rgb(49, 97, 224);
+        position: relative;
+    }
+
+    .main-description {
+        width: 60%;
+        height: 400px;
+        background-color: darkred;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
