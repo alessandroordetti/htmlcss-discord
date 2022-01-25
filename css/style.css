@@ -49,6 +49,17 @@
         width: 60%;
         text-align: center;
         margin: 0 120px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    /* Un'unica classe button che sarà data a tutti i buttons per le propeità condivise */
+    button {
+        width: 80px;
+        padding: 12px;
+        border-radius: 25px;
+        border: 1px solid transparent;
+        font-weight: bold;
     }
 
     .jumbotron {
@@ -69,7 +80,6 @@
         left: 50%;
         transform: translate(-50%, -50%);
         min-width: 325px;
-        background-color: pink;
     }
 
     section {
@@ -92,7 +102,7 @@
     }
 
     #gray-section {
-        background-color: gray;
+        background-color: rgb(246, 246, 246);
     }
 
 
