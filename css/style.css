@@ -31,7 +31,7 @@
         margin: 0 auto;
     }
      
-    logo > img{
+    logo > img {
         vertical-align: middle;
     }
     
@@ -57,9 +57,13 @@
     button {
         width: 80px;
         padding: 12px;
-        border-radius: 25px;
+        border-radius: 30px;
         border: 1px solid transparent;
         font-weight: bold;
+    }
+
+    button:hover {
+        color: red;
     }
 
     .jumbotron {
@@ -96,14 +100,14 @@
 
     .main-description > button {
         width: 240px;
-        padding: 15px;
+        padding: 18px;
         font-size: 20px;
         margin-right: 15px;
     }
 
     .main-description > button:last-child{
-        width:310px;
-        padding: 15px;
+        width:325px;
+        padding: 18px;
         font-size: 20px;
         background-color: rgb(35, 39, 42);
         color: white;
@@ -113,19 +117,30 @@
         height: 745px;
     }
 
+    section .container h1 {
+        font-size: 65px;
+        margin-bottom: 10px;
+    }
+
+    section .container p {
+        font-size: 20px;
+    }
+
     .study, .findings {
         padding-top: 130px;
     }
 
-
-
-    .study-group {
+    .study-group-img {
         width: 60%;
+    }
+
+    .study-group-description{
+        padding: 15px;
     }
 
     .study-group-description, .findings-description {
         width: 40%;
-        padding-top: 45px;
+        padding-top: 25px;
     }
 
     #gray-section {
